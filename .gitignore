@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# React build
+client/build/
+
+# OS-spezifisch
+.DS_Store
+Thumbs.db
+
+# dotenv config (wenn vorhanden)
+.env
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# PM2 (falls verwendet)
+pids
+.pids/
+
+# Editor- / IDE-Dateien
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS Finder metadata
+*.DS_Store
+
+# Optional: Test-Coverage oder temporäre Dateien
+coverage/
+.tmp/
