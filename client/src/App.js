@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
-const socket = new WebSocket('ws://localhost:4000');
+const socket = new WebSocket('wss://einenschrittnachvorne.onrender.com');
 
 function ProgressGrid({ players }) {
   const columns = 11;
