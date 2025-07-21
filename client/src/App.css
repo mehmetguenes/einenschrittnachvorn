@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.player-title {
+  color: #333;
+}
+
+.description {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.answer-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.answer-btn.yes {
+  background-color: #4caf50;
+  color: white;
+}
+
+.answer-btn.no {
+  background-color: #f44336;
+  color: white;
+}
+
+.progress-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.player-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-label {
+  width: 100px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.lines-container {
+  display: flex;
+  gap: 4px;
+}
+
+.line {
+  width: 20px;
+  height: 40px;
+  border-left: 2px solid black;
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+  top: 50%;
+  left: -7px;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
